@@ -27,9 +27,9 @@ def main():
         elif key_lst[pg.K_DOWN]:
             dx,dy = 0,1
         elif key_lst[pg.K_LEFT]:
-            dx,dy = -1,0
+            dx,dy = 0,0
         elif key_lst[pg.K_RIGHT]:
-            dx,dy = 2,0
+            dx,dy = 3,0
         else:
             dx,dy = 0,0
         kk_rct.move_ip([dx-1,dy])
